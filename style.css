@@ -1,2 +1,19 @@
-p
-{ background-color: red;}
+p {
+	color: red;
+}
+
+.lista {
+	color: violet;
+}
+
+html {
+	color: red;
+}
+
+#sininen_otsikko{
+	color:blue;
+}
+
+b h1 h2 h3 {
+	color: darkred;
+}
