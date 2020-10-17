@@ -1,24 +1,45 @@
-p {
-	color: red;
+.lista p{
+	color: gray;
 }
 
-.lista {
-	color: violet;
+#otsikko b h1 h2 h3 {
+	color:#333;
 }
 
-html {
-	color: red;
+.container_1 {
+	margin: 10px;
+	padding: 10px;
 }
 
-#sininen_otsikko{
-	color:blue;
+.col-1 {
+	position: relative;
+	max-width: 50vw;
+	max-height: 50vh;
 }
 
-b h1 h2 h3 {
-	color: darkred;
+.col-2 {
+	position: absolute;
+	left: 50vw;
+	max-width: 50vw;
+	max-height: 50vh;
 }
 
-.container {
-	width: 250;
-	height: 100;
+.container_2 {
+	position: relative;
+	height: 50vw;
+	max-width: 80vw;
+	margin: 10px;
+	padding: 10px;
+}
+
+body {
+	background-color: #eee;
+	margin: 0 auto;
+	max-width: 50em;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+	position: 0 auto;
+	margin: 20px;
 }
